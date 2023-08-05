@@ -34,5 +34,9 @@
         "*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)": [
             "yarn format"
         ]
+    },
+    "dependencies": {
+        "@react-three/fiber": "^8.13.6",
+        "three": "^0.155.0"
     }
 }

@@ -1,0 +1,16 @@
+.VideoContainer {
+    /* width: 100vw;             Set the container to the full viewport width */
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.Video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* This will make it stretch the full width of .VideoContainer */
+    height: 100%;
+    border: 0;
+    padding: 0;
+}

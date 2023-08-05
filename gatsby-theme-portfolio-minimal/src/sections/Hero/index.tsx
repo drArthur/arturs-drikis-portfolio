@@ -1,4 +1,7 @@
-import React from 'react';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable react/no-unknown-property */
+import React, { useRef } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Animation } from '../../components/Animation';
 import { useCalendlyWidget } from '../../hooks/useCalendlyWidget';
@@ -7,6 +10,24 @@ import { SocialProfiles } from '../../components/SocialProfiles';
 import { useLocalDataSource } from './data';
 import { PageSection } from '../../types';
 import * as classes from './style.module.css';
+
+// This component represents the rotating cube
+function RotatingBox() {
+    const boxRef = useRef<any>(null);
+    useFrame(() => {
+        if (boxRef.current) {
+            boxRef.current.rotation.x += 0.01;
+            boxRef.current.rotation.y += 0.01;
+        }
+    });
+
+    return (
+        <mesh ref={boxRef}>
+            <boxGeometry args={[1, 1, 1]} />
+            <meshStandardMaterial color="hotpink" />
+        </mesh>
+    );
+}
 
 export function HeroSection(props: PageSection): React.ReactElement {
     const response = useLocalDataSource();
@@ -18,6 +39,12 @@ export function HeroSection(props: PageSection): React.ReactElement {
         <Animation type="fadeUp" delay={400}>
             {CalendlyWidget}
             <Section anchor={props.sectionId} additionalClasses={[classes.HeroContainer]}>
+                <Canvas className={classes.canvasContainer}>
+                    <ambientLight />
+                    <perspectiveCamera />
+                    <pointLight position={[10, 10, 10]} />
+                    <RotatingBox />
+                </Canvas>
                 {data.heroPhoto?.src && (
                     <div className={classes.heroImageCont}>
                         <GatsbyImage

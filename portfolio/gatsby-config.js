@@ -1,9 +1,9 @@
 module.exports = {
     plugins: [
         {
-            resolve: 'gatsby-theme-portfolio-minimal',
+            resolve: '../gatsby-theme-portfolio-minimal',
             options: {
-                // siteUrl: "https://example.com", // Used for sitemap generation
+                // siteUrl: "https://artursdrikis.com", // Used for sitemap generation
                 manifestSettings: {
                     favicon: './content/images/favicon.png', // Path is relative to the root
                     siteName: 'My Minimal Portfolio', // Used in manifest.json
@@ -13,12 +13,12 @@ module.exports = {
                     themeColor: '#000000', // Used in manifest.json
                     display: 'minimal-ui', // Used in manifest.json
                 },
-                contentDirectory: './content',
-                blogSettings: {
-                    entityName: 'Article', // Used for the blog listing page title etc.
-                    path: '/blog', // Defines the slug for the blog listing page
-                    usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article),
-                },
+                // contentDirectory: './content',
+                // blogSettings: {
+                //     entityName: 'Article', // Used for the blog listing page title etc.
+                //     path: '/blog', // Defines the slug for the blog listing page
+                //     usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article),
+                // },
                 // skipContentDirectorySetup: true, // Default false
                 // disableGatsbyPluginOffline: true, // Default false
                 // plausibleAnalytics: {
