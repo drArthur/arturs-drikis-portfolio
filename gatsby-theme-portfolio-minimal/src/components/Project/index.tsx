@@ -43,28 +43,11 @@ export function Project(props: ProjectProps): React.ReactElement {
             <div className={classes.Details}>
                 <span className={classes.Category}>{props.data.category}</span>
                 <h4 className={classes.Title}>{props.data.title}</h4>
-                <p className={classes.Description}>
-                    <ul>
-                        {props.data.description &&
-                            props.data.description.length !== 0 &&
-                            props.data.description.map((tag, key) => {
-                                return (
-                                    <li key={key}>
-                                        <u>{tag}</u>
-                                    </li>
-                                );
-                            })}
-                    </ul>
-                </p>
-                <div className={classes.Tags}>
-                    {props.data.tags &&
-                        props.data.tags.length !== 0 &&
-                        props.data.tags.map((tag, key) => {
-                            return (
-                                <span key={key}>
-                                    <u>{tag}</u>
-                                </span>
-                            );
+                <div className={classes.Description}>
+                    {props.data.description &&
+                        props.data.description.length !== 0 &&
+                        props.data.description.map((tag, key) => {
+                            return <p key={key} dangerouslySetInnerHTML={{ __html: tag }} />;
                         })}
                 </div>
                 <div className={classes.Links}>
@@ -80,6 +63,7 @@ export function Project(props: ProjectProps): React.ReactElement {
                                     aria-label="External Link"
                                 >
                                     <Icon name={link.type} color="var(--subtext-color)" />
+                                    <span>{link.url.replace(/^https?:\/\/www\./, '').replace('/', '')}</span>
                                 </a>
                             );
                         })}

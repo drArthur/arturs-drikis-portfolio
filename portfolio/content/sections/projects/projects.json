@@ -5,12 +5,12 @@
             "category": "2021 - Present",
             "title": "AVIVA",
             "description": [
-                "Led quote calculation bug fixes resulting in estimated £10.4 million of revenue saved per year",
+                "Led quote calculation bug fixes resulting in estimated <strong>£10.4 million</strong> of revenue saved per year",
                 "Maintained Home and Motor customer journeys, servicing a sizeable portion of Aviva's 18.7 million UK customers"
             ],
             "tags": [],
             "image": {
-                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+                "src": "../../images/aviva.png",
                 "alt": "aviva.co.uk",
                 "linkTo": "https://www.aviva.co.uk/"
             },
@@ -32,7 +32,7 @@
             ],
             "tags": [],
             "image": {
-                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+                "src": "../../images/ga.png",
                 "alt": "generalaccident.com",
                 "linkTo": "https://www.generalaccident.com/"
             },
@@ -54,7 +54,7 @@
             ],
             "tags": [],
             "image": {
-                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+                "src": "../../images/qmh.png",
                 "alt": "quotemehappy.com",
                 "linkTo": "https://www.quotemehappy.com/"
             },
@@ -75,7 +75,7 @@
             ],
             "tags": [],
             "image": {
-                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+                "src": "../../images/ban.png",
                 "alt": "ban.lv",
                 "linkTo": "https://www.ban.lv/"
             },
