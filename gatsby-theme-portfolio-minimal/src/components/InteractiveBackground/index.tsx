@@ -1,11 +1,11 @@
 import React from 'react';
 import { Canvas } from '@react-three/fiber';
+import * as classes from './style.module.css';
 
-export default function InteractiveBackground(canvasClassName: any) {
-    console.log(canvasClassName);
+export default function InteractiveBackground() {
     return (
         // <></>
-        <Canvas className={canvasClassName}>
+        <Canvas className={classes.canvasContainer}>
             <mesh>
                 <boxGeometry />
                 <meshStandardMaterial />

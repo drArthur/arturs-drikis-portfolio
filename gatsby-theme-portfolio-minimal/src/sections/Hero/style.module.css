@@ -1,17 +1,16 @@
-.canvasContainer {
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .HeroContainer {
+    background-color: red;
     position: relative;
     display: flex;
+    width: 100%;
+    /* Full width */
     height: 100vh;
+    /* Full height */
     align-items: center;
-    justify-content: space-between;
+    /* Vertical centering */
+    justify-content: center;
+    /* Horizontal centering */
+    max-width: 100% !important;
 }
 
 .Hero {
@@ -19,9 +18,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
     transform: translate(--hero-offset);
     z-index: 0;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2.5rem;
 }
 
 .Hero .Title {
@@ -55,14 +57,35 @@
     font-size: 2rem;
     line-height: 3rem;
     color: var(--primary-color);
+    justify-content: right;
 }
 
 .Image {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 1rem;
     width: 36px;
     height: 36px;
     transform-origin: 70% 70%;
+}
+
+.heroImageCont {
+    flex: 33%;
+    flex-shrink: 0;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0 5rem 3rem 0;
+    transform: translate(--hero-offset);
+    max-height: 100%;
+    display: flex;
+    justify-content: right;
+    /* background-color: blue; */
+}
+
+.heroImageCont .heroImage {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 30rem;
 }
 
 @media (min-width: 768px) {
@@ -88,25 +111,25 @@
     }
 }
 
-.heroImageCont {
-    flex: 33%;
-    flex-shrink: 0;
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0 5rem 3rem 0;
-    transform: translate(--hero-offset);
-}
 
-.heroImageCont .heroImage {
-    width: 100%;
-    border-radius: 50%;
-}
 
 @media (max-width: 768px) {
     .heroImageCont {
-        max-width: 140px;
-        padding: 0 0 2rem 0;
+        display:none;
+        /* max-width: 140px; */
+        /* padding: 0 0 2rem 0; */
+        margin-top: 10%;
+        padding: 0;
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    .heroImageCont .heroImage {
+        width: 100%;
+        border-radius: 50%;
+        aspect-ratio: 1;
+        /* max-width: 30rem;
+        max-height: 30rem; */
     }
 
     .HeroContainer {

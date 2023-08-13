@@ -47,7 +47,7 @@ export function HeroSection(props: PageSection): React.ReactElement {
                     <pointLight position={[10, 10, 10]} />
                     <RotatingBox />
                 </Canvas> */}
-                <InteractiveBackground canvasClassName={classes.canvasContainer} />
+                <InteractiveBackground />
                 {data.heroPhoto?.src && (
                     <div className={classes.heroImageCont}>
                         <GatsbyImage
