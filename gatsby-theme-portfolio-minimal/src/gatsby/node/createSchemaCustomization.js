@@ -55,7 +55,7 @@ module.exports = ({ actions }) => {
         visible: Boolean
         category: String
         title: String
-        description: String
+        description: [String]
         tags: [String]
         image: LinkedImage
         links: [ProjectLink]

@@ -13,8 +13,7 @@
             "github": "https://github.com/drarthur",
             "linkedin": "https://www.linkedin.com/in/arturs-drikis/",
             "youtube": "https://www.youtube.com/@arturs.drikis",
-            "mail": "mailto:drikis.arturs@gmail.com",
-            "medium": "https://konstantinmuenster.medium.com"
+            "mail": "mailto:drikis.arturs@gmail.com"
         }
     },
     "siteConfiguration": {
@@ -22,8 +21,7 @@
         "navigation": {
             "ctaButton": { "openNewTab": true, "label": "CV", "url": "/resume.pdf" },
             "header": [
-                { "label": "Projects", "url": "/#projects" },
-                { "label": "Blog", "url": "/blog" },
+                { "label": "Tech", "url": "/tech" },
                 { "label": "Perfumery", "url": "/perfumery" }
             ],
             "footer": [

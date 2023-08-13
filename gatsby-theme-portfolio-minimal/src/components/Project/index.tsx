@@ -14,7 +14,7 @@ enum LinkType {
 export interface Project {
     category?: string;
     title: string;
-    description: string;
+    description?: string[];
     image: ImageObject & { linkTo?: string };
     tags?: string[];
     links?: {
@@ -31,7 +31,7 @@ interface ProjectProps {
 
 export function Project(props: ProjectProps): React.ReactElement {
     const isDesktopBreakpoint = useMediaQuery('(min-width: 992px)');
-
+    console.log(props.data.description);
     return (
         <Animation
             type="fadeUp"
@@ -43,7 +43,19 @@ export function Project(props: ProjectProps): React.ReactElement {
             <div className={classes.Details}>
                 <span className={classes.Category}>{props.data.category}</span>
                 <h4 className={classes.Title}>{props.data.title}</h4>
-                <p>{props.data.description}</p>
+                <p className={classes.Description}>
+                    <ul>
+                        {props.data.description &&
+                            props.data.description.length !== 0 &&
+                            props.data.description.map((tag, key) => {
+                                return (
+                                    <li key={key}>
+                                        <u>{tag}</u>
+                                    </li>
+                                );
+                            })}
+                    </ul>
+                </p>
                 <div className={classes.Tags}>
                     {props.data.tags &&
                         props.data.tags.length !== 0 &&

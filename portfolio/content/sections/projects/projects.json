@@ -2,46 +2,93 @@
     "projects": [
         {
             "visible": true,
-            "category": "🕹️ EASY AND QUICK SETUP",
-            "title": "Add content and deploy!",
-            "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-            "tags": ["Content Integration", "Ready-2-Deploy"],
+            "category": "2021 - Present",
+            "title": "AVIVA",
+            "description": [
+                "Led quote calculation bug fixes resulting in estimated £10.4 million of revenue saved per year",
+                "Maintained Home and Motor customer journeys, servicing a sizeable portion of Aviva's 18.7 million UK customers"
+            ],
+            "tags": [],
             "image": {
                 "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-                "alt": "Quick Setup",
-                "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+                "alt": "aviva.co.uk",
+                "linkTo": "https://www.aviva.co.uk/"
             },
             "links": [
                 {
-                    "type": "github",
-                    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-                },
-                {
                     "type": "external",
-                    "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+                    "url": "https://www.aviva.co.uk/"
                 }
             ]
         },
         {
             "visible": true,
-            "category": "🧰 EXTENDABLE LAYOUT",
-            "title": "Add more sections!",
-            "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-            "tags": ["Custom Sections", "Easy-2-Use"],
+            "category": "2021 - Present",
+            "title": "GENERAL ACCIDENT",
+            "description": [
+                "Led anti-fraud service implementation, ensuring integrity of quote prices",
+                "Fixed urgent system-breaking issues, ensuring smooth running of quote sales",
+                "Led knowledge transfer efforts with multiple remote teams in order to improve maintenance costs"
+            ],
+            "tags": [],
             "image": {
-                "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-                "alt": "Extendable Layout"
+                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+                "alt": "generalaccident.com",
+                "linkTo": "https://www.generalaccident.com/"
             },
             "links": [
                 {
-                    "type": "github",
-                    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+                    "type": "external",
+                    "url": "https://www.generalaccident.com/"
                 }
             ]
-        }
+        },
+        {
+            "visible": true,
+            "category": "2021 - Present",
+            "title": "QUOTE ME HAPPY",
+            "description": [
+                "Led a customer journey redesign, increasing customer retention by 2.5%",
+                "Maintained and improved internal dev tools, servicing 100+ developers",
+                "Held monthly project-wide development forums, improving knowledge transfer"
+            ],
+            "tags": [],
+            "image": {
+                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+                "alt": "quotemehappy.com",
+                "linkTo": "https://www.quotemehappy.com/"
+            },
+            "links": [
+                {
+                    "type": "external",
+                    "url": "https://www.quotemehappy.com/"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "category": "2016 - 2018",
+            "title": "BALTIJAS APDROŠINĀŠANAS NAMS",
+            "description": [
+                "Migrated an enterprise webforms application to asp.net MVC",
+                "Developed an internal information management system"
+            ],
+            "tags": [],
+            "image": {
+                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+                "alt": "ban.lv",
+                "linkTo": "https://www.ban.lv/"
+            },
+            "links": [
+                {
+                    "type": "external",
+                    "url": "https://www.ban.lv/"
+                }
+            ]
+        } 
     ],
     "button": {
-        "visible": true,
+        "visible": false,
         "label": "Visit on Github",
         "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
     }

@@ -6888,7 +6888,7 @@ gatsby-telemetry@^4.7.0:
     lodash "^4.17.21"
     node-fetch "^2.6.8"
 
-"gatsby-theme-portfolio-minimal@file:W:\\Projects\\2023\\portfolio\\arturs-drikis-portfolio\\gatsby-theme-portfolio-minimal":
+gatsby-theme-portfolio-minimal@*, "gatsby-theme-portfolio-minimal@file:W:\\Projects\\2023\\portfolio\\arturs-drikis-portfolio\\gatsby-theme-portfolio-minimal":
   version "0.1.0"
   resolved "file:gatsby-theme-portfolio-minimal"
   dependencies:
@@ -12665,6 +12665,11 @@ simple-swizzle@^0.2.2:
   integrity sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==
   dependencies:
     is-arrayish "^0.3.1"
+
+simplex-noise@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/simplex-noise/-/simplex-noise-4.0.1.tgz"
+  integrity sha512-zl/+bdSqW7HJOQ0oDbxrNYaF4F5ik0i7M6YOYmEoIJNtg16NpvWaTTM1Y7oV/7T0jFljawLgYPS81Uu2rsfo1A==
 
 sisteransi@^1.0.5:
   version "1.0.5"

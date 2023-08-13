@@ -10,6 +10,7 @@ import { SocialProfiles } from '../../components/SocialProfiles';
 import { useLocalDataSource } from './data';
 import { PageSection } from '../../types';
 import * as classes from './style.module.css';
+import InteractiveBackground from '../../components/InteractiveBackground';
 
 // This component represents the rotating cube
 function RotatingBox() {
@@ -35,16 +36,18 @@ export function HeroSection(props: PageSection): React.ReactElement {
 
     const CalendlyWidget = useCalendlyWidget(data.calendly);
 
+    console.log(classes.canvasContainer);
     return (
         <Animation type="fadeUp" delay={400}>
             {CalendlyWidget}
             <Section anchor={props.sectionId} additionalClasses={[classes.HeroContainer]}>
-                <Canvas className={classes.canvasContainer}>
+                {/* <Canvas className={classes.canvasContainer}>
                     <ambientLight />
                     <perspectiveCamera />
                     <pointLight position={[10, 10, 10]} />
                     <RotatingBox />
-                </Canvas>
+                </Canvas> */}
+                <InteractiveBackground canvasClassName={classes.canvasContainer} />
                 {data.heroPhoto?.src && (
                     <div className={classes.heroImageCont}>
                         <GatsbyImage

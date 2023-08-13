@@ -2,7 +2,7 @@
     "intro": "Arturs Driķis",
     "heroPhoto": {
         "src": "../../images/portrait.jpg",
-        "alt": "My Photo"
+        "alt": "Arturs Driķis' photo"
     },
     "title": "Tech Lead | Developer",
     "subtitle": {
@@ -10,7 +10,7 @@
         "highlight": "",
         "suffix": ""
     },
-    "description": "A modern portfolio with a minimalistic design.",
+    "description": "Coding Excellence, Human Essence.",
     "socialProfiles": {
         "from": ["LinkedIn", "Github", "Mail"],
         "showIcons": true
