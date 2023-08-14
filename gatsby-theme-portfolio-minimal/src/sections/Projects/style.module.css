@@ -18,3 +18,13 @@
         margin-top: 0;
     }
 }
+
+@media (max-width: 550px) {
+    .Projects {
+        flex-direction: column;
+        margin-top: 0;
+    }
+     .Project {
+        padding-right: 0;
+    }
+}
