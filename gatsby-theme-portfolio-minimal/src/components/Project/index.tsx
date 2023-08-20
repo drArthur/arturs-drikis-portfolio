@@ -31,7 +31,6 @@ interface ProjectProps {
 
 export function Project(props: ProjectProps): React.ReactElement {
     const isDesktopBreakpoint = useMediaQuery('(min-width: 992px)');
-    console.log(props.data.description);
     return (
         <Animation
             type="fadeUp"

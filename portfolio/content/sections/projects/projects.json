@@ -5,8 +5,8 @@
             "category": "2021 - Present",
             "title": "AVIVA",
             "description": [
-                "Led quote calculation bug fixes resulting in estimated <strong>£10.4 million</strong> of revenue saved per year",
-                "Maintained Home and Motor customer journeys, servicing a sizeable portion of Aviva's 18.7 million UK customers"
+                "Led quote calculation bug fixes resulting in estimated <strong>£10.4 million</strong> of revenue saved per year.",
+                "Maintained Home and Motor customer journeys, servicing a sizeable portion of Aviva's <strong>18.7 million</strong> UK customers."
             ],
             "tags": [],
             "image": {
@@ -26,9 +26,9 @@
             "category": "2021 - Present",
             "title": "GENERAL ACCIDENT",
             "description": [
-                "Led anti-fraud service implementation, ensuring integrity of quote prices",
-                "Fixed urgent system-breaking issues, ensuring smooth running of quote sales",
-                "Led knowledge transfer efforts with multiple remote teams in order to improve maintenance costs"
+                "Led anti-fraud service implementation, ensuring integrity of quote prices.",
+                "Fixed urgent system-breaking issues, ensuring smooth running of quote sales.",
+                "Led <strong>knowledge transfer</strong> efforts with multiple remote teams in order to improve maintenance costs."
             ],
             "tags": [],
             "image": {
@@ -48,9 +48,9 @@
             "category": "2021 - Present",
             "title": "QUOTE ME HAPPY",
             "description": [
-                "Led a customer journey redesign, increasing customer retention by 2.5%",
-                "Maintained and improved internal dev tools, servicing 100+ developers",
-                "Held monthly project-wide development forums, improving knowledge transfer"
+                "Led a customer journey redesign, increasing customer retention by 2.5%.",
+                "Maintained and improved internal dev tools, servicing <strong>100+ developers</strong>.",
+                "Held monthly project-wide development forums, improving knowledge transfer."
             ],
             "tags": [],
             "image": {
@@ -70,8 +70,8 @@
             "category": "2016 - 2018",
             "title": "BALTIJAS APDROŠINĀŠANAS NAMS",
             "description": [
-                "Migrated an enterprise webforms application to asp.net MVC",
-                "Developed an internal information management system"
+                "Migrated an enterprise webforms application to asp.net MVC.",
+                "Developed an internal information management system."
             ],
             "tags": [],
             "image": {

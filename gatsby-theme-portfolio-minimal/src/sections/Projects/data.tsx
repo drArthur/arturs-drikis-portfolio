@@ -32,7 +32,7 @@ export const useLocalDataSource = (): ProjectsSectionQueryResult => {
                             linkTo
                             src {
                                 childImageSharp {
-                                    gatsbyImageData(width: 400)
+                                    gatsbyImageData(width: 800)
                                 }
                             }
                             objectFit
