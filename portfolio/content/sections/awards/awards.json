@@ -1,0 +1,92 @@
+{
+    "awards": [
+        {
+            "visible": true,
+            "category": "2022",
+            "title": "Sapiens Standout Employee of the year",
+            "description": [
+                "Led quote calculation bug fixes resulting in estimated <strong>£10.4 million</strong> of revenue saved per year."
+            ],
+            "tags": [],
+            "image": {
+                "src": "",
+                "alt": "",
+                "linkTo": ""
+            },
+            "links": [
+                {
+                    "type": "external",
+                    "url": "https://www.sapiens.com/"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "category": "2018",
+            "title": "Zibit Best Master's Thesis",
+            "description": [
+                "Using Unity ML agents for a simple ecosystem implementation."
+            ],
+            "tags": [],
+            "image": {
+                "src": "",
+                "alt": "",
+                "linkTo": ""
+            },
+            "links": [
+                {
+                    "type": "external",
+                    "url": "https://www.rtu.lv/lv/attistibasfonds/fonds-par-mums/zinas-1/atvert/zibit-2018-apbalvoti-labakie-absolventi-it-nozare"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "category": "2016 - 2018",
+            "title": "Master's Degree in Software Engineering, Latvia University",
+            "description": [
+                "Deep machine learning, Probabilistic algorithms, Software testing, Data mining, Number theory, System design.",
+                "Acknowledgement of an excellent Master’s thesis.",
+                "GPA of 7.93"
+            ],
+            "tags": [],
+            "image": {
+                "src": "",
+                "alt": "",
+                "linkTo": ""
+            },
+            "links": [
+                {
+                    "type": "external",
+                    "url": "https://www.lu.lv/en/"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "category": "2012 - 2016",
+            "title": "Bachelor's Degree in Software Engineering, Latvia University",
+            "description": [
+                "Programming languages, Algorithms theory, Cryptography, Graph theory, Computer Graphics, Software requirements analysis.",
+                "GPA of 7.68"
+            ],
+            "tags": [],
+            "image": {
+                "src": "",
+                "alt": "",
+                "linkTo": ""
+            },
+            "links": [
+                {
+                    "type": "external",
+                    "url": "https://www.lu.lv/en/"
+                }
+            ]
+        } 
+    ],
+    "button": {
+        "visible": false,
+        "label": "Visit on Github",
+        "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    }
+}

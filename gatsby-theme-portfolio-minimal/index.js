@@ -8,5 +8,6 @@ export { ProjectsSection } from './src/sections/Projects';
 export { ContactSection } from './src/sections/Contact';
 export { LegalSection } from './src/sections/Legal';
 export { VideoSection } from './src/sections/Video';
+export { AwardsSection } from './src/sections/Awards';
 export { Section } from './src/components/Section';
 export { Animation } from './src/components/Animation';

@@ -26,7 +26,7 @@ export const useLocalDataSource = (): AboutSectionQueryResult => {
                         imageAlt
                         imageSrc {
                             childImageSharp {
-                                gatsbyImageData(width: 400)
+                                gatsbyImageData(width: 500)
                             }
                         }
                     }

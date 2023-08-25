@@ -3,28 +3,28 @@
         {
             "visible": true,
             "category": "2021 - Present",
-            "title": "AVIVA",
+            "title": "Insurance Project A",
             "description": [
                 "Led quote calculation bug fixes resulting in estimated <strong>£10.4 million</strong> of revenue saved per year.",
-                "Maintained Home and Motor customer journeys, servicing a sizeable portion of Aviva's <strong>18.7 million</strong> UK customers."
+                "Maintained Home and Motor customer journeys, servicing a sizeable portion of <strong>18+ million</strong> UK customers."
             ],
             "tags": [],
             "image": {
-                "src": "../../images/aviva.png",
-                "alt": "aviva.co.uk",
-                "linkTo": "https://www.aviva.co.uk/"
+                "src": "../../images/sapiens.jpg",
+                "alt": "sapiens.com",
+                "linkTo": "https://sapiens.com/"
             },
             "links": [
                 {
                     "type": "external",
-                    "url": "https://www.aviva.co.uk/"
+                    "url": "https://sapiens.com/"
                 }
             ]
         },
         {
             "visible": true,
             "category": "2021 - Present",
-            "title": "GENERAL ACCIDENT",
+            "title": "Insurance Project G",
             "description": [
                 "Led anti-fraud service implementation, ensuring integrity of quote prices.",
                 "Fixed urgent system-breaking issues, ensuring smooth running of quote sales.",
@@ -32,21 +32,21 @@
             ],
             "tags": [],
             "image": {
-                "src": "../../images/ga.png",
-                "alt": "generalaccident.com",
-                "linkTo": "https://www.generalaccident.com/"
+                "src": "../../images/sapiens.jpg",
+                "alt": "sapiens.com",
+                "linkTo": "https://sapiens.com/"
             },
             "links": [
                 {
                     "type": "external",
-                    "url": "https://www.generalaccident.com/"
+                    "url": "https://sapiens.com/"
                 }
             ]
         },
         {
             "visible": true,
             "category": "2021 - Present",
-            "title": "QUOTE ME HAPPY",
+            "title": "Insurance Project Q",
             "description": [
                 "Led a customer journey redesign, increasing customer retention by 2.5%.",
                 "Maintained and improved internal dev tools, servicing <strong>100+ developers</strong>.",
@@ -54,14 +54,14 @@
             ],
             "tags": [],
             "image": {
-                "src": "../../images/qmh.png",
-                "alt": "quotemehappy.com",
-                "linkTo": "https://www.quotemehappy.com/"
+                "src": "../../images/sapiens.jpg",
+                "alt": "sapiens.com",
+                "linkTo": "https://sapiens.com/"
             },
             "links": [
                 {
                     "type": "external",
-                    "url": "https://www.quotemehappy.com/"
+                    "url": "https://sapiens.com/"
                 }
             ]
         },

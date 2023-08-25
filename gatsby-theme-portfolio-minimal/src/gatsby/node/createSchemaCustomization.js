@@ -197,5 +197,27 @@ module.exports = ({ actions }) => {
         siteMetadata: SiteMetadata
         siteConfiguration: SiteConfiguration
     }
+    type AwardLink {
+        type: String
+        url: String
+    }
+    type Award {
+        visible: Boolean
+        category: String
+        title: String
+        description: [String]
+        tags: [String]
+        image: LinkedImage
+        links: [AwardLink]
+    }
+    type AwardButton {
+        visible: Boolean
+        label: String
+        url: String
+    }
+    type AwardsJson implements Node @dontInfer {
+        awards: [Award]
+        button: AwardButton
+    }
   `);
 };
