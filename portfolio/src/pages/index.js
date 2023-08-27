@@ -14,7 +14,7 @@ import {
 export default function IndexPage() {
     return (
         <>
-            <Seo title="Gatsby Theme Portfolio Minimal" />
+            <Seo title="Arturs Drikis Portfolio" />
             <Page useSplashScreenAnimation>
                 <HeroSection sectionId="hero" />
                 {/* <VideoSection sectionId="video" /> */}

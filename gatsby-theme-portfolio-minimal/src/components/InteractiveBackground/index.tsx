@@ -49,7 +49,7 @@ function RotatingBox(props: { index: number; z: number; speed: number }) {
 enum BoxColors {
     LightBlue = '#99bfd9',
     Sand = '#cfb584',
-    HotPink = 'black',
+    Black = 'black',
 }
 
 function getRandomColor(): string {
@@ -94,7 +94,9 @@ RotatingBoxes.propTypes = {
 
 export default function InteractiveBackground() {
     const [speed, setSpeed] = useState(0.5);
-    const maxSpeed = 20; // Set your desired maximum speed here
+    const maxSpeed = 20;
+    const smallScreenCount = 80;
+    const bigScreenCount = 300;
 
     useEffect(() => {
         const handleScroll = () => {
@@ -102,7 +104,7 @@ export default function InteractiveBackground() {
             const scrollPosition = -window.scrollY || -window.pageYOffset;
 
             // Calculate the new speed value based on scroll position
-            const exponent = 0.05; // Adjust this value for the desired effect
+            const exponent = 0.05;
             const newSpeed = Math.pow(exponent, scrollPosition / window.innerHeight);
 
             // Apply a maximum speed limit
@@ -119,7 +121,11 @@ export default function InteractiveBackground() {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []); // Empty dependency array ensures the effect runs only once
+    }, []);
 
-    return <RotatingBoxes speed={speed} />;
+    // Determine the count based on screen width
+    const screenWidth = window.innerWidth;
+    const count = screenWidth <= 768 ? smallScreenCount : bigScreenCount;
+
+    return <RotatingBoxes speed={speed} count={count} />;
 }
