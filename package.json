@@ -2,16 +2,16 @@
     "private": true,
     "scripts": {
         "test": "yarn workspace gatsby-theme-portfolio-minimal test",
-        "clean": "yarn workspace example-site clean",
-        "build": "yarn workspace example-site build",
-        "develop": "yarn workspace example-site develop",
-        "serve": "yarn workspace example-site serve",
+        "clean": "yarn workspace portfolio clean",
+        "build": "yarn workspace portfolio build",
+        "develop": "yarn workspace portfolio develop",
+        "serve": "yarn workspace portfolio serve",
         "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\"",
         "lint": "yarn workspaces run lint"
     },
     "workspaces": [
         "gatsby-theme-portfolio-minimal",
-        "example-site"
+        "portfolio"
     ],
     "repository": {
         "type": "git",

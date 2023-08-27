@@ -70,7 +70,7 @@ function getRandomColor(): string {
 
 function RotatingBoxes({
     speed = 0.5,
-    count = 160,
+    count = 300,
     depth = 30,
     easing = (x: number) => Math.sqrt(1 - Math.pow(x - 1, 2)),
 }) {
