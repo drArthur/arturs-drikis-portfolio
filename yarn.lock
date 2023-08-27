@@ -2179,10 +2179,10 @@
   resolved "https://registry.npmjs.org/@react-spring/types/-/types-9.6.1.tgz"
   integrity sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==
 
-"@react-three/drei@^9.80.6":
-  version "9.80.6"
-  resolved "https://registry.npmjs.org/@react-three/drei/-/drei-9.80.6.tgz"
-  integrity sha512-t+rAg6dpBSmWXlMKYKkz25vBtlKjgLsZuOQqlt1hXqUHzhr69SJMCXcMb8kkguK8cVTn4URln7Wc4dDMkCYRXg==
+"@react-three/drei@^9.80.8":
+  version "9.80.8"
+  resolved "https://registry.npmjs.org/@react-three/drei/-/drei-9.80.8.tgz"
+  integrity sha512-T089hn4rZX08ytJ7xjS8U2cbsKEsPgXK0OTLQiV3kcB9yFI/jM0ujUAbkHhtCERzvpNsCfEcKw0zHFO9iNTy5Q==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@mediapipe/tasks-vision" "0.10.2"
@@ -7067,7 +7067,9 @@ gatsby-theme-portfolio-minimal@*, "gatsby-theme-portfolio-minimal@file:W:\\Proje
   resolved "file:gatsby-theme-portfolio-minimal"
   dependencies:
     "@fontsource/roboto" "^4.5.8"
+    "@react-three/drei" "^9.80.8"
     "@react-three/fiber" "^8.13.6"
+    "@react-three/postprocessing" "^2.15.1"
     fs-extra "^11.1.1"
     gatsby-plugin-gdpr-cookies "^2.0.9"
     gatsby-plugin-image "^3.0.0"
@@ -11265,6 +11267,15 @@ please-upgrade-node@^3.2.0:
   integrity sha512-gQR3WpIgNIKwBMVLkpMUeR3e1/E1y42bqDQZfql+kDeXd8COYfM8PQA4X6y7a8u9Ua9FHmsrrmirW2vHs45hWg==
   dependencies:
     semver-compare "^1.0.0"
+
+"portfolio@file:W:\\Projects\\2023\\portfolio\\arturs-drikis-portfolio\\portfolio":
+  version "0.1.0"
+  resolved "file:portfolio"
+  dependencies:
+    gatsby "^5.0.1"
+    gatsby-theme-portfolio-minimal "*"
+    react "^18.2.0"
+    react-dom "^18.2.0"
 
 postcss-calc@^8.2.3:
   version "8.2.4"

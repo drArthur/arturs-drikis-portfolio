@@ -15,6 +15,8 @@
         "lint": "echo \"Nothing to do here\""
     },
     "dependencies": {
+        "@react-three/drei": "^9.80.8",
+        "@react-three/postprocessing": "^2.15.1",
         "gatsby": "^5.0.1",
         "gatsby-theme-portfolio-minimal": "*",
         "react": "^18.2.0",

@@ -34,7 +34,7 @@
         ]
     },
     "dependencies": {
-        "@react-three/drei": "^9.80.6",
+        "@react-three/drei": "^9.80.8",
         "@react-three/fiber": "^8.13.7",
         "@react-three/postprocessing": "^2.15.1",
         "prop-types": "^15.8.1",

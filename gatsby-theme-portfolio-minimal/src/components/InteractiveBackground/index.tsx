@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import React, { useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { Detailed, Environment } from '@react-three/drei';
+import { Environment } from '@react-three/drei';
 // https://github.com/pmndrs/react-postprocessing
 // https://github.com/vanruesc/postprocessing
 import { EffectComposer, DepthOfField } from '@react-three/postprocessing';
@@ -39,20 +39,10 @@ function RotatingBox(props: { index: number; z: number; speed: number }) {
     });
 
     return (
-        <Detailed ref={ref} distances={[0, 65, 80]} objects={undefined}>
-            <mesh>
-                <boxGeometry />
-                <meshStandardMaterial color={data.color} emissive={data.color} />
-            </mesh>
-            <mesh>
-                <boxGeometry />
-                <meshStandardMaterial color={data.color} emissive={data.color} />
-            </mesh>
-            <mesh>
-                <boxGeometry />
-                <meshStandardMaterial color={data.color} emissive={data.color} />
-            </mesh>
-        </Detailed>
+        <mesh ref={ref}>
+            <boxGeometry />
+            <meshStandardMaterial color={data.color} emissive={data.color} />
+        </mesh>
     );
 }
 
@@ -88,7 +78,7 @@ function RotatingBoxes({
                 { length: count },
                 (_, i) => <RotatingBox key={i} index={i} z={Math.round(easing(i / count) * depth)} speed={speed} /> /* prettier-ignore */,
             )}
-            <Environment preset="sunset" />
+            <Environment preset="city" />
             <EffectComposer multisampling={0}>
                 <DepthOfField target={[0, 0, 60]} focalLength={0.4} bokehScale={14} height={700} />
             </EffectComposer>

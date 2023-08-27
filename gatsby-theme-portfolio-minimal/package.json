@@ -45,12 +45,13 @@
         "typescript-plugin-css-modules": "^3.4.0"
     },
     "husky": {
-        "hooks": {
-        }
+        "hooks": {}
     },
     "dependencies": {
         "@fontsource/roboto": "^4.5.8",
+        "@react-three/drei": "^9.80.8",
         "@react-three/fiber": "^8.13.6",
+        "@react-three/postprocessing": "^2.15.1",
         "fs-extra": "^11.1.1",
         "gatsby-plugin-gdpr-cookies": "^2.0.9",
         "gatsby-plugin-image": "^3.0.0",
