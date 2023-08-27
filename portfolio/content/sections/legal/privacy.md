@@ -2,11 +2,11 @@
 sectionId: privacy
 ---
 
-Your privacy is important to me. It is my, YOURNAME, policy to respect your privacy regarding any information I may collect from you across my website, YOURDOMAIN.
+Your privacy is important to me. It is my, Arturs Driķis', policy to respect your privacy regarding any information I may collect from you across my website, artursdrikis.com.
 
 I only ask for personal information when I truly need it to provide a service to you. I collect it by fair and lawful means, with your knowledge and consent. I also let you know why I am collecting it and how it will be used.
 
-I only retain collected information for as long as necessary to provide you with your requested service. What data I store, I'll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.
+I only retain collected information for as long as necessary to provide you with your requested service. What data I store, I'll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
 
 I don’t share any personally identifying information publicly or with third-parties, except when required to by law.
 

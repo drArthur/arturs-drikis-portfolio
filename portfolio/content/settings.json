@@ -19,10 +19,11 @@
     "siteConfiguration": {
         "logo": { "text": "ARTURS DRIĶIS" },
         "navigation": {
-            "ctaButton": { "openNewTab": true, "label": "CV", "url": "/resume.pdf" },
+            "ctaButton": { "openNewTab": true, "label": "CV", "url": "/Arturs Drikis 2023-08-27.pdf" },
             "header": [
-                { "label": "Tech", "url": "/tech" },
-                { "label": "Perfumery", "url": "/perfumery" }
+                { "label": "Projects", "url": "#projects" },
+                { "label": "Skills", "url": "#skills" },
+                { "label": "Education & Awards", "url": "#awards" }
             ],
             "footer": [
                 { "label": "Privacy", "url": "/privacy" },

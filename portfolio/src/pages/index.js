@@ -17,7 +17,7 @@ export default function IndexPage() {
             <Seo title="Gatsby Theme Portfolio Minimal" />
             <Page useSplashScreenAnimation>
                 <HeroSection sectionId="hero" />
-                <VideoSection sectionId="video" />
+                {/* <VideoSection sectionId="video" /> */}
                 <ProjectsSection sectionId="projects" heading="Projects" />
                 <InterestsSection sectionId="skills" heading="Skills" />
                 <AboutSection sectionId="about" heading="About Me" /> 

@@ -1,5 +1,4 @@
 .HeroContainer {
-    background-color: red;
     position: relative;
     display: flex;
     width: 100%;
@@ -24,6 +23,7 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 2.5rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .Hero .Title {

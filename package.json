@@ -23,8 +23,7 @@
         "prettier": "^2.2.1"
     },
     "husky": {
-        "hooks": {
-        }
+        "hooks": {}
     },
     "lint-staged": {
         "*.+(ts|tsx)": [
@@ -35,7 +34,10 @@
         ]
     },
     "dependencies": {
-        "@react-three/fiber": "^8.13.6",
+        "@react-three/drei": "^9.80.6",
+        "@react-three/fiber": "^8.13.7",
+        "@react-three/postprocessing": "^2.15.1",
+        "prop-types": "^15.8.1",
         "simplex-noise": "^4.0.1",
         "three": "^0.155.0"
     }
